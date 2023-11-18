@@ -110,7 +110,7 @@ function Set-AzSentinel {
             }
             $splitBaseUri = ($Script:baseUri -split 'microsoft.operationalinsights')[0] #Using -split is case insensitive.
             
-            $uri = "$($splitBaseUri)/Microsoft.OperationsManagement/solutions/SecurityInsights($WorkspaceName)?api-version=2015-11-01-preview"
+            $uri = "$($splitBaseUri)Microsoft.OperationsManagement/solutions/SecurityInsights($WorkspaceName)?api-version=2015-11-01-preview"
             
             try {
                 $solutionResult = Invoke-WebRequest -Uri $uri -Method Get -Headers $script:authHeader
