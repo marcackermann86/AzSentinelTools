@@ -103,7 +103,7 @@ PrivateData = @{
         Tags = @('Sentinel','Azure')
 
         # A URL to the license for this module.
-        LicenseUri = 'https://github.com/marcackermann86/AzSentinelTools/blob/main/LICENSE'
+        LicenseUri = 'https://github.com/marcackermann86/AzSentinelTools/blob/master/LICENSE'
 
         # A URL to the main website for this project.
         ProjectUri = 'https://github.com/marcackermann86/AzSentinelTools/'
