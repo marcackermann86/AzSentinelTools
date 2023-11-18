@@ -1,5 +1,7 @@
 # Azure Sentinel Tools
 
+This was cloned from wortell/AZSentinel so Set-AzSentinel could be fixed.
+
 | branch      | status                                                                                         |
 | ----------- | ---------------------------------------------------------------------------------------------- |
 | master      | ![](https://github.com/wortell/AZSentinel/workflows/Build-Module/badge.svg?branch=master)      |
@@ -23,10 +25,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-You can install the latest version of AzSentinel module from [PowerShell Gallery](https://www.powershellgallery.com/packages/AzSentinel)
+You can install the latest version of AzSentinelTools module from [PowerShell Gallery](https://www.powershellgallery.com/packages/AzSentinel)
 
 ```PowerShell
-Install-Module AzSentinel -Scope CurrentUser -Force
+Install-Module AzSentinelTools -Scope CurrentUser -Force
 ```
 
 ### Usage
