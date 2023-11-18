@@ -12,7 +12,7 @@
 	RootModule = 'AzSentinelTools.psm1'
 
 	# Version number of this module.
-	ModuleVersion = '0.1.1'
+	ModuleVersion = '0.1.2'
 
 	# Supported PSEditions
 	CompatiblePSEditions = @('Core', 'Desktop')
@@ -76,26 +76,26 @@
     # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
     FunctionsToExport    = @('Add-AzSentinelIncidentComment','Disable-AzSentinelAlertRule','Enable-AzSentinelAlertRule','Export-AzSentinel','Get-AzSentinelAlertRule','Get-AzSentinelAlertRuleAction','Get-AzSentinelAlertRuleTemplates','Get-AzSentinelDataConnector','Get-AzSentinelHuntingRule','Get-AzSentinelIncident','Import-AzSentinelAlertRule','Import-AzSentinelDataConnector','Import-AzSentinelHuntingRule','New-AzSentinelAlertRule','New-AzSentinelAlertRuleAction','New-AzSentinelHuntingRule','Remove-AzSentinelAlertRule','Remove-AzSentinelAlertRuleAction','Remove-AzSentinelHuntingRule','Rename-AzSentinelAlertRule','Set-AzSentinel','Update-AzSentinelIncident')
 
-# Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
-CmdletsToExport = @()
+	# Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
+	CmdletsToExport = @()
 
-# Variables to export from this module
-VariablesToExport = '*'
+	# Variables to export from this module
+	VariablesToExport = '*'
 
-# Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
-AliasesToExport = @()
+	# Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
+	AliasesToExport = @()
 
-# DSC resources to export from this module
-# DscResourcesToExport = @()
+	# DSC resources to export from this module
+	# DscResourcesToExport = @()
 
-# List of all modules packaged with this module
-# ModuleList = @()
+	# List of all modules packaged with this module
+	# ModuleList = @()
 
-# List of all files packaged with this module
-# FileList = @()
+	# List of all files packaged with this module
+	# FileList = @()
 
-# Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
-PrivateData = @{
+	# Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
+	PrivateData = @{
 
     PSData = @{
 
