@@ -9,13 +9,13 @@
 @{
 
 	# Script module or binary module file associated with this manifest.
-	# RootModule = 'AzSentinelTools.psm1'
+	RootModule = 'AzSentinelTools.psm1'
 
 	# Version number of this module.
-	ModuleVersion = '0.1.0'
+	ModuleVersion = '0.1.1'
 
 	# Supported PSEditions
-	# CompatiblePSEditions = @()
+	CompatiblePSEditions = @('Core', 'Desktop')
 
 	# ID used to uniquely identify this module
 	GUID = '95ad9328-43fa-4cd8-a35a-75b69478997e'
