@@ -12,7 +12,7 @@
 	RootModule = 'AzSentinelTools.psm1'
 
 	# Version number of this module.
-	ModuleVersion = '0.1.2'
+	ModuleVersion = '0.1.3'
 
 	# Supported PSEditions
 	CompatiblePSEditions = @('Core', 'Desktop')
@@ -114,7 +114,7 @@
         # ReleaseNotes of this module
         ReleaseNotes = ' Fixes and new features:
             * Cloned AzSentinel module
-            * Fixed error in Set-AzSentinel #195'
+            * Fixed errors in Set-AzSentinel #195'
 
         # Prerelease string of this module
         # Prerelease = ''
